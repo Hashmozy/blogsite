@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>My tailwind project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="bg-green-100 scroll-smooth">
+    <div class="container mx-auto">
+      <!-- header content -->
+      <header
+        class="flex justify-between items-center sticky top-0 z-20 py-4 bg-green-800 rounded-b-sm"
+      >
+        <div class="flex-shrink-0 ml-10 cursor-pointer items-center flex">
+          <i class="fa-solid fa-terminal fa-2xl"></i>
+          <span class="text-3xl font-semibold text-blue-200">SuCodes</span>
+        </div>
+        <ul class="flex mr-10 font-semibold overflow-x-hidden">
+          <li
+            class="mr-6 border-b-2 border-yellow-300 text-white hover:text-green-400"
+          >
+            <a class="cursor-pointer" href="">Home</a>
+          </li>
+          <li class="mr-6">
+            <a class="cursor-pointer text-white hover:text-green-400" href=""
+              >About</a
+            >
+          </li>
+          <li class="mr-6">
+            <a class="cursor-pointer text-white hover:text-green-400" href=""
+              >Projects</a
+            >
+          </li>
+          <li class="mr-6">
+            <a class="cursor-pointer text-white hover:text-green-400" href=""
+              >Catalogue</a
+            >
+          </li>
+          <li class="mr-6">
+            <a class="cursor-pointer text-white hover:text-green-400" href=""
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </header>
+      <!-- main section -->
+      <div class="flex bg-blue-400 pb-4">
+        <main class="flex flex-col w-2/3 pl-6 pr-4 pt-4">
+          <article class="my-4 shadow">
+            <a href="#">
+              <img class="hover:opacity-75" src="/images/reading.jpg" />
+            </a>
+            <div class="flex flex-col p-6 pt-2 bg-white">
+              <a
+                href="#"
+                class="my-4 text-sm font-bold uppercase border-b-2 border-yellow-500 text-blue-700"
+                >layout</a
+              >
+              <a
+                href="#"
+                class="pb-4 text-3xl font-serif font-bold hover:text-gray-500"
+                >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dolorem, facilis!</a
+              >
+              <p class="pb-3 text-sm">
+                By
+                <a href="#" class="font-semibold hover:text-gray-500"
+                  >David ➥Jacobs</a
+                >, May 25, 2021
+              </p>
+              <p class="pb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                quis porta ➥dui. Ut eu iaculis massa. Sed ornare ligula lacus,
+                quis iaculis dui porta volutpat. In sit ➥amet posuere magna..
+              </p>
+              <a
+                href="#"
+                class="uppercase text-xs text-blue-600 hover:text-yellow-500"
+                >Continue Reading ➥<i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="my-4 shadow">
+            <a href="#">
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/4UGmm3WRUoQ/1600x900"
+              />
+            </a>
+            <div class="flex flex-col p-6 pt-2 bg-white">
+              <a
+                href="#"
+                class="my-2 text-sm font-bold uppercase border-b-2 border-yellow-500 text-blue-600"
+                >Imagery</a
+              >
+              <a
+                href="#"
+                class="pb-4 text-3xl font-serif font-bold hover:text-gray-700"
+                >Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</a
+              >
+              <p class="pb-3 text-sm">
+                By
+                <a href="#" class="font-semibold hover:text-gray-800"
+                  >Monica Sanchez</a
+                >, May 10, 2021
+              </p>
+              <p class="pb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                quis porta dui. Ut eu iaculis massa. Sed ornare ligula lacus,
+                quis iaculis dui porta volutpat. In sit ➥amet posuere magna..
+              </p>
+              <a
+                href="#"
+                class="uppercase text-xs text-blue-600 hover:text-yellow-500"
+                >Continue Reading<i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="my-4 shadow">
+            <a href="#">
+              <img
+                class="hover:opacity-75"
+                src="https://source.unsplash.com/TkZYCXmrKK4/1600x900"
+              />
+            </a>
+            <div class="flex flex-col p-6 pt-2 bg-white">
+              <a
+                href="#"
+                class="my-2 text-sm font-bold uppercase border-b-2 border-yellow-500 text-blue-600"
+                >Typography</a
+              >
+              <a
+                href="#"
+                class="pb-4 text-3xl font-serif font-bold hover:text-gray-700"
+                >Lorem Ipsum Dolor Sit Amet Dolor Sit Amet</a
+              >
+              <p class="pb-3 text-sm">
+                By
+                <a href="#" class="font-semibold hover:text-gray-800"
+                  >David Jacobs</a
+                >, April 20, 2021
+              </p>
+              <p class="pb-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                quis porta dui. Ut eu iaculis massa. Sed ornare ligula lacus,
+                quis iaculis dui porta volutpat. In sit amet posuere magna..
+              </p>
+              <a
+                href="#"
+                class="uppercase text-xs text-blue-600 hover:text-yellow-500"
+                >Continue Reading ➥<i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </article>
+        </main>
+        <!-- side section -->
+        <side class="w-1/3 pl-4 pr-6 pt-8">
+          <section>
+            <form class="flex sticky z-10">
+              <input
+                type="text"
+                class="w-full rounded-l-lg py-2 px-3 focus:outline-none text-gray-600"
+                placeholder="Search..."
+              />
+              <button
+                class="px-2 rounded-r-lg focus:outline-none text-center text-xl text-gray-400 hover:text-gray-900 bg-white"
+              >
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </section>
+          <section class="mt-8 text-white">
+            <div
+              class="p-4 rounded-lg text-center bg-gradient-to-b from-green-800 to-green-600"
+            >
+              <h3 class="font-semibold text-lg">
+                Get the latest news & tutorials right to your inbox
+              </h3>
+              <form>
+                <input
+                  type="email"
+                  placeholder="youremail@example.com"
+                  class="w-full mt-3 p-3 rounded shadow border-none border-gray-400 focus:outline-none text-gray-800"
+                />
+                <button
+                  type="submit"
+                  class="w-full mt-4 p-4 rounded shadow font-semibold uppercase tracking-wider bg-blue-500 hover:bg-blue-400"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </section>
+          <section class="mt-8">
+            <h3
+              class="mb-4 pb-2 text-2xl font-semibold border-b-2 border-yellow-500 text-blue-600"
+            >
+              Categories
+            </h3>
+            <ul>
+              <li class="mb-1">
+                <a class="text-blue-900 hover:text-blue-500" href="#"
+                  >Layout (23)</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="text-blue-900 hover:text-blue-500" href="#"
+                  >Typography (44)</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="text-blue-900 hover:text-blue-500" href="#"
+                  >Colors (16)</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="text-blue-900 hover:text-blue-500" href="#"
+                  >Imagery (19)</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section
+            class="flex flex-col items-center p-4 bg-green-800 outline-none rounded border-none"
+          >
+            <div class="text-center text-white">
+              <h2 class="font-bold text-3xl">Want to stay up-to-date?</h2>
+              <h3 class="text-xl">
+                Join our mail list for hot news & new tutorials
+              </h3>
+            </div>
+            <div>
+              <form class="my-4 flex">
+                <input
+                  class="w-full p-4 rounded-l-lg focus:outline-none text-gray-800"
+                  placeholder="your@mail.com"
+                />
+                <button
+                  class="w-full p-3 rounded-r-lg font-bold uppercase tracking-wider text-white bg-blue-500 hover:bg-blue-400"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </section>
+        </side>
+      </div>
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
